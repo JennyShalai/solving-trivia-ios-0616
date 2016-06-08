@@ -73,6 +73,7 @@
             NSString *currentCharInState = [NSString stringWithFormat:@"%c", [stateLowercase characterAtIndex:j]];
             if ( [capital containsString:currentCharInState]) {
                 flag = YES;
+                break;
             }
         }
         if (flag == NO) {
